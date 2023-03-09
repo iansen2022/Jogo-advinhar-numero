@@ -18,6 +18,11 @@ public class Jogo {
 		int escolha_usuario;
 		
 		show.println("Olá! Digite seu nome?");
+		String nome = scan.nextLine();
+		show.println ("Prazer em conhece-lo" + nome+"!");
+		show.println (nome + ", Vamos jogar?");
+		show.println ("\nInforme o número da sua opção.\n1");
+		opcao = scan.nextInt();
 	}
 
 }
