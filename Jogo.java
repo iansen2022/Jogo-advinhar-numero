@@ -38,8 +38,17 @@ public class Jogo {
 			escolha_computador = gerador.nextInt(11);
 			
 			show.println("Ok, "+nome+". Eu já escolhi");
-			show.println("Agora tente adivinhar!");;
+			show.println("Agora tente adivinhar!");
+			
+			do {
+				escolha_usuario = scan.nextInt();
+				if(escolha_usuario != escolha_computador) {
+					show.println("Resposta errada!");
+				}else{
+					show.println("Parabéns! Você acertou!");
+				}
+			}while (escolha_computador != escolha_usuario);
+				
+			}
 		}
 	}
-
-}
