@@ -32,7 +32,7 @@ public class Jogo {
 			show.println("Ok! o jogo é assim...");
 			show.println("Eu vou escolher um número de 0 a 10");
 			show.println("Mas não vou falar para você qual foi.");
-			show.println("Se você conseguir adivinhar qual foi...");
+			show.println("Se você conseguir adivinhar digo qual foi.");
 			show.println("Você será o vencedor!");
 			
 			escolha_computador = gerador.nextInt(11);
